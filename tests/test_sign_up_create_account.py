@@ -20,6 +20,5 @@ def test_subscribe(page:Page):
     email.fill("anahitaleqs89@gmail.com")
     password.fill("Ashun2024!")
     re_enter_password.fill("Ashun2024!")
-    time.sleep(2)
     create_account.click()
     time.sleep(10)
